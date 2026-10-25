@@ -1,0 +1,20 @@
+{
+  "name": "@misthold/kernel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "黑雾城邦 微内核: 生命周期/拓扑加载/EventBus/ServiceLocator/Scheduler/ConfigStore (零游戏依赖)",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}

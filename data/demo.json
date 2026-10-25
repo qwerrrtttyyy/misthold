@@ -1,0 +1,39 @@
+{
+  "demo": {
+    "phases": [
+      { "phase": "prep", "durationS": 20 },
+      { "phase": "warn", "durationS": 8 },
+      { "phase": "invade", "durationS": 15 },
+      { "phase": "settle", "durationS": 6 }
+    ],
+    "resources": {
+      "food": 120,
+      "wood": 80,
+      "iron": 40,
+      "metal": 0,
+      "rates": { "food": 2.2, "wood": 1.6, "iron": 1.1, "metal": 0.5 }
+    },
+    "power": { "gen": 10, "use": 6 },
+    "towers": [
+      { "x": 29, "y": 29 },
+      { "x": 35, "y": 29 },
+      { "x": 29, "y": 35 },
+      { "x": 35, "y": 35 }
+    ],
+    "towerStats": { "range": 4.5, "damage": 14, "intervalMs": 480, "hp": 60 },
+    "enemyStats": { "hp": 30, "speed": 1.1, "spawnIntervalMs": 900, "coreDamage": 8 },
+    "buildingDefs": {
+      "民居":   { "type": "production", "tex": "building.house",  "cost": { "wood": 20 }, "rate": { "food": 0.4 } },
+      "净水站": { "type": "production", "tex": "building.farm",   "cost": { "wood": 15, "iron": 5 }, "rate": { "food": 0.8 } },
+      "锯木厂": { "type": "production", "tex": "building.lumber", "cost": { "wood": 25 }, "rate": { "wood": 0.6 } },
+      "冶炼厂": { "type": "production", "tex": "building.mine",   "cost": { "wood": 20, "iron": 10 }, "rate": { "metal": 0.5 } },
+      "箭塔":   { "type": "tower", "tex": "building.tower_arrow_01", "cost": { "wood": 30, "iron": 5 } },
+      "霜冻塔": { "type": "tower", "tex": "building.tower_arrow_01", "cost": { "wood": 25, "iron": 15 }, "stats": { "range": 3.2, "damage": 7, "intervalMs": 380 } },
+      "城墙":   { "type": "wall", "tex": "building.wall_01", "cost": { "wood": 10 } },
+      "文化建筑": { "type": "stub" }, "提炼厂": { "type": "stub" },
+      "兵营": { "type": "stub" }, "机修库": { "type": "stub" }, "指挥所": { "type": "stub" },
+      "科研所": { "type": "stub" }, "情报站": { "type": "stub" }, "解析室": { "type": "stub" }
+    },
+    "assets": { "manifestUrl": "/manifest.json" }
+  }
+}

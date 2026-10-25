@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0D0A14" />
+    <title>黑雾城邦 Misthold · P0 垂直切片</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #0d0a14;
+        overflow: hidden;
+        height: 100%;
+        font-family: system-ui, sans-serif;
+      }
+      #game-canvas {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        touch-action: none; /* 触屏手势交给相机输入层 */
+      }
+      #hud-root {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffd98c;
+        font-size: 18px;
+        letter-spacing: 4px;
+        background: #0d0a14;
+        z-index: 100;
+        transition: opacity 0.5s;
+      }
+      #boot.done {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="boot">黑雾城邦 · 内核启动中…</div>
+    <canvas id="game-canvas"></canvas>
+    <div id="hud-root"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

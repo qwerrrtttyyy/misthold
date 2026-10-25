@@ -1,0 +1,138 @@
+{
+  "color": {
+    "human": {
+      "human_amber": {
+        "value": "#E8A33D",
+        "type": "color"
+      },
+      "human_lamp": {
+        "value": "#F26B3A",
+        "type": "color"
+      },
+      "human_cloth": {
+        "value": "#8C6A4F",
+        "type": "color"
+      },
+      "human_lime": {
+        "value": "#9B948B",
+        "type": "color"
+      },
+      "human_glow": {
+        "value": "#FFD98C",
+        "type": "color"
+      }
+    },
+    "faction_xenogen": {
+      "xeno_acid": {
+        "value": "#8BC34A",
+        "type": "color"
+      },
+      "xeno_indigo": {
+        "value": "#6A3D9A",
+        "type": "color"
+      },
+      "xeno_goo": {
+        "value": "#B7F04A",
+        "type": "color"
+      }
+    },
+    "faction_twisted": {
+      "twist_rot": {
+        "value": "#7A5B43",
+        "type": "color"
+      },
+      "twist_rash": {
+        "value": "#D98324",
+        "type": "color"
+      },
+      "twist_blood": {
+        "value": "#A83731",
+        "type": "color"
+      }
+    },
+    "faction_demonic": {
+      "demon_red": {
+        "value": "#C0392B",
+        "type": "color"
+      },
+      "demon_black": {
+        "value": "#1C1616",
+        "type": "color"
+      },
+      "demon_bone": {
+        "value": "#E8DFC8",
+        "type": "color"
+      }
+    },
+    "faction_automata": {
+      "auto_steel": {
+        "value": "#5B7A99",
+        "type": "color"
+      },
+      "auto_warn": {
+        "value": "#F2C230",
+        "type": "color"
+      },
+      "auto_cyan": {
+        "value": "#4FD1C5",
+        "type": "color"
+      }
+    },
+    "fog_black": {
+      "bfog_core": {
+        "value": "#0D0A14",
+        "type": "color"
+      },
+      "bfog_edge": {
+        "value": "#3B2A52",
+        "type": "color"
+      },
+      "bfog_bolt": {
+        "value": "#8E5BC0",
+        "type": "color"
+      }
+    },
+    "fog_gray": {
+      "gfog_grey": {
+        "value": "#8A9391",
+        "type": "color"
+      },
+      "gfog_deep": {
+        "value": "#5E6B6A",
+        "type": "color"
+      },
+      "gfog_shade": {
+        "value": "#2E3634",
+        "type": "color"
+      }
+    },
+    "ui": {
+      "ui_bg": {
+        "value": "#1A161E",
+        "type": "color"
+      },
+      "ui_gold": {
+        "value": "#C9A86A",
+        "type": "color"
+      },
+      "ui_ok": {
+        "value": "#6FB36A",
+        "type": "color"
+      },
+      "ui_danger": {
+        "value": "#D8443C",
+        "type": "color"
+      },
+      "ui_taboo": {
+        "value": "#B03A6E",
+        "type": "color"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "value": "'Kenney Future', system-ui, sans-serif",
+      "type": "fontFamily"
+    }
+  }
+}

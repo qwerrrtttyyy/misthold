@@ -1,0 +1,2920 @@
+{
+  "generated_by": "tools/process_art.py v0.1",
+  "spec": {
+    "tile_px": 128,
+    "unit_px": 128,
+    "building_px": 128,
+    "note": "building 128px 为切片占位, 正式版按美术文档 §1.5 为 256px 三阶段"
+  },
+  "categories": {
+    "terrain": [
+      {
+        "id": "terrain.grass_01",
+        "file": "tiles/terrain/grass_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #001",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_02",
+        "file": "tiles/terrain/grass_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #002",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_03",
+        "file": "tiles/terrain/grass_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #003",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_04",
+        "file": "tiles/terrain/grass_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #004",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_blend_01",
+        "file": "tiles/terrain/grass_blend_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #005",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_blend_02",
+        "file": "tiles/terrain/grass_blend_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #006",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_blend_03",
+        "file": "tiles/terrain/grass_blend_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #007",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.grass_blend_04",
+        "file": "tiles/terrain/grass_blend_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #008",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_01",
+        "file": "tiles/terrain/path_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #024",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_02",
+        "file": "tiles/terrain/path_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #025",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_03",
+        "file": "tiles/terrain/path_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #026",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_04",
+        "file": "tiles/terrain/path_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #027",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_05",
+        "file": "tiles/terrain/path_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #028",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_blend_01",
+        "file": "tiles/terrain/path_blend_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #029",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_blend_02",
+        "file": "tiles/terrain/path_blend_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #030",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_blend_03",
+        "file": "tiles/terrain/path_blend_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #031",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_blend_04",
+        "file": "tiles/terrain/path_blend_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #032",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.path_blend_05",
+        "file": "tiles/terrain/path_blend_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #033",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.tree_big_01",
+        "file": "tiles/terrain/tree_big_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #075",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.tree_big_02",
+        "file": "tiles/terrain/tree_big_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #076",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.tree_small_01",
+        "file": "tiles/terrain/tree_small_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #034",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.tree_small_02",
+        "file": "tiles/terrain/tree_small_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #035",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.tree_small_03",
+        "file": "tiles/terrain/tree_small_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #036",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.tree_small_04",
+        "file": "tiles/terrain/tree_small_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #037",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_01",
+        "file": "tiles/terrain/rock_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #054",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_02",
+        "file": "tiles/terrain/rock_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #055",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_03",
+        "file": "tiles/terrain/rock_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #056",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_04",
+        "file": "tiles/terrain/rock_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #057",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_05",
+        "file": "tiles/terrain/rock_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #059",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_06",
+        "file": "tiles/terrain/rock_06.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #060",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_07",
+        "file": "tiles/terrain/rock_07.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #061",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_08",
+        "file": "tiles/terrain/rock_08.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #062",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.rock_09",
+        "file": "tiles/terrain/rock_09.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #063",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.water_01",
+        "file": "tiles/terrain/water_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #124",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.water_02",
+        "file": "tiles/terrain/water_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #125",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.water_03",
+        "file": "tiles/terrain/water_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #126",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.water_04",
+        "file": "tiles/terrain/water_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #132",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.water_05",
+        "file": "tiles/terrain/water_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #133",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.platform_01",
+        "file": "tiles/terrain/platform_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #181",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.platform_02",
+        "file": "tiles/terrain/platform_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #182",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.platform_03",
+        "file": "tiles/terrain/platform_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #183",
+        "license": "CC0",
+        "usage": "D3 地块网格"
+      },
+      {
+        "id": "terrain.polluted_01",
+        "file": "tiles/terrain/polluted_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "duotone(td_tilesheet@2x #001, 雾缘紫)",
+        "license": "CC0 + 自产重染",
+        "usage": "黑雾侵蚀战后污染地 (美术文档 §2.2)"
+      },
+      {
+        "id": "terrain.polluted_02",
+        "file": "tiles/terrain/polluted_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "duotone(td_tilesheet@2x #002, 雾缘紫)",
+        "license": "CC0 + 自产重染",
+        "usage": "黑雾侵蚀战后污染地 (美术文档 §2.2)"
+      },
+      {
+        "id": "terrain.polluted_03",
+        "file": "tiles/terrain/polluted_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "duotone(td_tilesheet@2x #003, 雾缘紫)",
+        "license": "CC0 + 自产重染",
+        "usage": "黑雾侵蚀战后污染地 (美术文档 §2.2)"
+      },
+      {
+        "id": "terrain.polluted_04",
+        "file": "tiles/terrain/polluted_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "duotone(td_tilesheet@2x #004, 雾缘紫)",
+        "license": "CC0 + 自产重染",
+        "usage": "黑雾侵蚀战后污染地 (美术文档 §2.2)"
+      },
+      {
+        "id": "terrain.road_01",
+        "file": "tiles/terrain/road_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0001 x8",
+        "license": "CC0",
+        "usage": "道路地块"
+      },
+      {
+        "id": "terrain.road_02",
+        "file": "tiles/terrain/road_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0002 x8",
+        "license": "CC0",
+        "usage": "道路地块"
+      },
+      {
+        "id": "terrain.road_03",
+        "file": "tiles/terrain/road_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0005 x8",
+        "license": "CC0",
+        "usage": "道路地块"
+      },
+      {
+        "id": "terrain.road_04",
+        "file": "tiles/terrain/road_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0006 x8",
+        "license": "CC0",
+        "usage": "道路地块"
+      },
+      {
+        "id": "terrain.citytree_01",
+        "file": "tiles/terrain/citytree_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0052 x8",
+        "license": "CC0",
+        "usage": "林地树木占位"
+      },
+      {
+        "id": "terrain.citytree_02",
+        "file": "tiles/terrain/citytree_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0053 x8",
+        "license": "CC0",
+        "usage": "林地树木占位"
+      },
+      {
+        "id": "terrain.citytree_03",
+        "file": "tiles/terrain/citytree_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0065 x8",
+        "license": "CC0",
+        "usage": "林地树木占位"
+      },
+      {
+        "id": "terrain.citytree_04",
+        "file": "tiles/terrain/citytree_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0066 x8",
+        "license": "CC0",
+        "usage": "林地树木占位"
+      },
+      {
+        "id": "terrain.citytree_05",
+        "file": "tiles/terrain/citytree_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0067 x8",
+        "license": "CC0",
+        "usage": "林地树木占位"
+      },
+      {
+        "id": "terrain.citytree_06",
+        "file": "tiles/terrain/citytree_06.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0068 x8",
+        "license": "CC0",
+        "usage": "林地树木占位"
+      }
+    ],
+    "buildings": [
+      {
+        "id": "building.wall_01",
+        "file": "buildings/wall_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0097 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.wall_02",
+        "file": "buildings/wall_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0098 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.wall_03",
+        "file": "buildings/wall_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0099 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.wall_04",
+        "file": "buildings/wall_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0100 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.wall_05",
+        "file": "buildings/wall_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0101 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.wall_06",
+        "file": "buildings/wall_06.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0102 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.wall_07",
+        "file": "buildings/wall_07.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tiny-city tile_0103 x8",
+        "license": "CC0",
+        "usage": "城墙/路障占位"
+      },
+      {
+        "id": "building.tower_arrow_01",
+        "file": "buildings/tower_arrow_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #192 (绿圆塔)",
+        "license": "CC0",
+        "usage": "D8 箭塔占位; 正式塔按美术文档 §1.3 人类形状语言自产"
+      },
+      {
+        "id": "building.farm",
+        "file": "buildings/farm.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL (tools/process_art.py)",
+        "license": "自产",
+        "usage": "D4 采集/工业/民生建筑占位; 正式版走 Blender->精灵管线"
+      },
+      {
+        "id": "building.lumber",
+        "file": "buildings/lumber.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL (tools/process_art.py)",
+        "license": "自产",
+        "usage": "D4 采集/工业/民生建筑占位; 正式版走 Blender->精灵管线"
+      },
+      {
+        "id": "building.quarry",
+        "file": "buildings/quarry.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL (tools/process_art.py)",
+        "license": "自产",
+        "usage": "D4 采集/工业/民生建筑占位; 正式版走 Blender->精灵管线"
+      },
+      {
+        "id": "building.mine",
+        "file": "buildings/mine.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL (tools/process_art.py)",
+        "license": "自产",
+        "usage": "D4 采集/工业/民生建筑占位; 正式版走 Blender->精灵管线"
+      },
+      {
+        "id": "building.house",
+        "file": "buildings/house.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL (tools/process_art.py)",
+        "license": "自产",
+        "usage": "D4 采集/工业/民生建筑占位; 正式版走 Blender->精灵管线"
+      },
+      {
+        "id": "building.glow_core_normal",
+        "file": "buildings/glow_core_normal.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL",
+        "license": "自产",
+        "usage": "辉光核心(被毁即失败); 全图唯一暖光源"
+      },
+      {
+        "id": "building.glow_core_damaged",
+        "file": "buildings/glow_core_damaged.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "procedural PIL",
+        "license": "自产",
+        "usage": "核心受损状态(光源闪烁变红)"
+      }
+    ],
+    "props": [
+      {
+        "id": "prop.coin_gold",
+        "file": "props/coin_gold.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #272",
+        "license": "CC0",
+        "usage": "战利品/空军敌人占位"
+      },
+      {
+        "id": "prop.coin_ring",
+        "file": "props/coin_ring.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #273",
+        "license": "CC0",
+        "usage": "战利品/空军敌人占位"
+      },
+      {
+        "id": "prop.coin_bronze",
+        "file": "props/coin_bronze.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #274",
+        "license": "CC0",
+        "usage": "战利品/空军敌人占位"
+      }
+    ],
+    "units": [
+      {
+        "id": "unit.plane_green",
+        "file": "units/plane_green.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #270",
+        "license": "CC0",
+        "usage": "战利品/空军敌人占位"
+      },
+      {
+        "id": "unit.plane_gray",
+        "file": "units/plane_gray.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_tower-defense-top-down tilesheet@2x #271",
+        "license": "CC0",
+        "usage": "战利品/空军敌人占位"
+      },
+      {
+        "id": "unit.human_01",
+        "file": "units/human_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters col0 row0 x8 + 暖调",
+        "license": "CC0",
+        "usage": "民兵/步兵/远征队占位 (D7)"
+      },
+      {
+        "id": "unit.human_02",
+        "file": "units/human_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters col0 row1 x8 + 暖调",
+        "license": "CC0",
+        "usage": "民兵/步兵/远征队占位 (D7)"
+      },
+      {
+        "id": "unit.human_03",
+        "file": "units/human_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters col0 row2 x8 + 暖调",
+        "license": "CC0",
+        "usage": "民兵/步兵/远征队占位 (D7)"
+      },
+      {
+        "id": "unit.human_04",
+        "file": "units/human_04.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters col0 row3 x8 + 暖调",
+        "license": "CC0",
+        "usage": "民兵/步兵/远征队占位 (D7)"
+      },
+      {
+        "id": "unit.human_05",
+        "file": "units/human_05.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters col0 row4 x8 + 暖调",
+        "license": "CC0",
+        "usage": "民兵/步兵/远征队占位 (D7)"
+      },
+      {
+        "id": "unit.human_06",
+        "file": "units/human_06.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters col0 row5 x8 + 暖调",
+        "license": "CC0",
+        "usage": "民兵/步兵/远征队占位 (D7)"
+      },
+      {
+        "id": "unit.enemy_xenogen_01",
+        "file": "units/enemy_xenogen_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row0 duotone(异源体-酸绿)",
+        "license": "CC0 + 自产重染",
+        "usage": "D7 变异体占位(近位)"
+      },
+      {
+        "id": "unit.enemy_xenogen_02",
+        "file": "units/enemy_xenogen_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row1 duotone(异源体-酸绿)",
+        "license": "CC0 + 自产重染",
+        "usage": "D7 变异体占位(近位)"
+      },
+      {
+        "id": "unit.enemy_xenogen_03",
+        "file": "units/enemy_xenogen_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row2 duotone(异源体-酸绿)",
+        "license": "CC0 + 自产重染",
+        "usage": "D7 变异体占位(近位)"
+      },
+      {
+        "id": "unit.enemy_twisted_01",
+        "file": "units/enemy_twisted_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row0 duotone(变异体-腐褐)",
+        "license": "CC0 + 自产重染",
+        "usage": "D7 腐狼占位"
+      },
+      {
+        "id": "unit.enemy_twisted_02",
+        "file": "units/enemy_twisted_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row1 duotone(变异体-腐褐)",
+        "license": "CC0 + 自产重染",
+        "usage": "D7 腐狼占位"
+      },
+      {
+        "id": "unit.enemy_twisted_03",
+        "file": "units/enemy_twisted_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row2 duotone(变异体-腐褐)",
+        "license": "CC0 + 自产重染",
+        "usage": "D7 腐狼占位"
+      },
+      {
+        "id": "unit.enemy_demonic_01",
+        "file": "units/enemy_demonic_01.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row0 duotone(魔族-猩红)",
+        "license": "CC0 + 自产重染",
+        "usage": "魔族占位"
+      },
+      {
+        "id": "unit.enemy_demonic_02",
+        "file": "units/enemy_demonic_02.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row1 duotone(魔族-猩红)",
+        "license": "CC0 + 自产重染",
+        "usage": "魔族占位"
+      },
+      {
+        "id": "unit.enemy_demonic_03",
+        "file": "units/enemy_demonic_03.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_roguelike-characters magenta col0 row2 duotone(魔族-猩红)",
+        "license": "CC0 + 自产重染",
+        "usage": "魔族占位"
+      }
+    ],
+    "fx": [
+      {
+        "id": "fx.black_mist_1",
+        "file": "fx/black_mist_1.png",
+        "px": [
+          512,
+          512
+        ],
+        "source": "procedural fbm cloud (雾芯#0D0A14/雾缘#3B2A52)",
+        "license": "自产",
+        "usage": "D6 黑雾体积雾占位; 正式为 Pixi 自定义 shader pass"
+      },
+      {
+        "id": "fx.black_mist_2",
+        "file": "fx/black_mist_2.png",
+        "px": [
+          512,
+          512
+        ],
+        "source": "procedural fbm cloud (雾芯#0D0A14/雾缘#3B2A52)",
+        "license": "自产",
+        "usage": "D6 黑雾体积雾占位; 正式为 Pixi 自定义 shader pass"
+      },
+      {
+        "id": "fx.black_mist_3",
+        "file": "fx/black_mist_3.png",
+        "px": [
+          512,
+          512
+        ],
+        "source": "procedural fbm cloud (雾芯#0D0A14/雾缘#3B2A52)",
+        "license": "自产",
+        "usage": "D6 黑雾体积雾占位; 正式为 Pixi 自定义 shader pass"
+      },
+      {
+        "id": "fx.gray_mist_1",
+        "file": "fx/gray_mist_1.png",
+        "px": [
+          512,
+          512
+        ],
+        "source": "procedural fbm cloud (灰青#8A9391)",
+        "license": "自产",
+        "usage": "灰雾探索层占位"
+      },
+      {
+        "id": "fx.gray_mist_2",
+        "file": "fx/gray_mist_2.png",
+        "px": [
+          512,
+          512
+        ],
+        "source": "procedural fbm cloud (灰青#8A9391)",
+        "license": "自产",
+        "usage": "灰雾探索层占位"
+      },
+      {
+        "id": "fx.glow_core",
+        "file": "fx/glow_core.png",
+        "px": [
+          512,
+          512
+        ],
+        "source": "procedural radial glow (辉光金->灯火橙)",
+        "license": "自产",
+        "usage": "辉光核心光圈/前哨暖光/远征队头灯"
+      },
+      {
+        "id": "fx.spore",
+        "file": "fx/spore.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "procedural",
+        "license": "自产",
+        "usage": "污染地孢子粒子"
+      }
+    ],
+    "ui": [
+      {
+        "id": "ui.Default.arrow_basic_e",
+        "file": "ui/gold/Grey/Default/arrow_basic_e.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_e.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_e_small",
+        "file": "ui/gold/Grey/Default/arrow_basic_e_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_e_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_n",
+        "file": "ui/gold/Grey/Default/arrow_basic_n.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_n.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_n_small",
+        "file": "ui/gold/Grey/Default/arrow_basic_n_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_n_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_s",
+        "file": "ui/gold/Grey/Default/arrow_basic_s.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_s.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_s_small",
+        "file": "ui/gold/Grey/Default/arrow_basic_s_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_s_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_w",
+        "file": "ui/gold/Grey/Default/arrow_basic_w.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_w.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_basic_w_small",
+        "file": "ui/gold/Grey/Default/arrow_basic_w_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_basic_w_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_e",
+        "file": "ui/gold/Grey/Default/arrow_decorative_e.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_e.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_e_small",
+        "file": "ui/gold/Grey/Default/arrow_decorative_e_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_e_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_n",
+        "file": "ui/gold/Grey/Default/arrow_decorative_n.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_n.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_n_small",
+        "file": "ui/gold/Grey/Default/arrow_decorative_n_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_n_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_s",
+        "file": "ui/gold/Grey/Default/arrow_decorative_s.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_s.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_s_small",
+        "file": "ui/gold/Grey/Default/arrow_decorative_s_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_s_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_w",
+        "file": "ui/gold/Grey/Default/arrow_decorative_w.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_w.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.arrow_decorative_w_small",
+        "file": "ui/gold/Grey/Default/arrow_decorative_w_small.png",
+        "px": [
+          24,
+          24
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/arrow_decorative_w_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_border",
+        "file": "ui/gold/Grey/Default/button_rectangle_border.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_depth_border",
+        "file": "ui/gold/Grey/Default/button_rectangle_depth_border.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_depth_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_depth_flat",
+        "file": "ui/gold/Grey/Default/button_rectangle_depth_flat.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_depth_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_depth_gloss",
+        "file": "ui/gold/Grey/Default/button_rectangle_depth_gloss.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_depth_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_depth_gradient",
+        "file": "ui/gold/Grey/Default/button_rectangle_depth_gradient.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_depth_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_depth_line",
+        "file": "ui/gold/Grey/Default/button_rectangle_depth_line.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_depth_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_flat",
+        "file": "ui/gold/Grey/Default/button_rectangle_flat.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_gloss",
+        "file": "ui/gold/Grey/Default/button_rectangle_gloss.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_gradient",
+        "file": "ui/gold/Grey/Default/button_rectangle_gradient.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_rectangle_line",
+        "file": "ui/gold/Grey/Default/button_rectangle_line.png",
+        "px": [
+          192,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_rectangle_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_border",
+        "file": "ui/gold/Grey/Default/button_round_border.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_depth_border",
+        "file": "ui/gold/Grey/Default/button_round_depth_border.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_depth_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_depth_flat",
+        "file": "ui/gold/Grey/Default/button_round_depth_flat.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_depth_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_depth_gloss",
+        "file": "ui/gold/Grey/Default/button_round_depth_gloss.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_depth_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_depth_gradient",
+        "file": "ui/gold/Grey/Default/button_round_depth_gradient.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_depth_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_depth_line",
+        "file": "ui/gold/Grey/Default/button_round_depth_line.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_depth_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_flat",
+        "file": "ui/gold/Grey/Default/button_round_flat.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_gloss",
+        "file": "ui/gold/Grey/Default/button_round_gloss.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_gradient",
+        "file": "ui/gold/Grey/Default/button_round_gradient.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_round_line",
+        "file": "ui/gold/Grey/Default/button_round_line.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_round_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_border",
+        "file": "ui/gold/Grey/Default/button_square_border.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_depth_border",
+        "file": "ui/gold/Grey/Default/button_square_depth_border.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_depth_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_depth_flat",
+        "file": "ui/gold/Grey/Default/button_square_depth_flat.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_depth_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_depth_gloss",
+        "file": "ui/gold/Grey/Default/button_square_depth_gloss.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_depth_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_depth_gradient",
+        "file": "ui/gold/Grey/Default/button_square_depth_gradient.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_depth_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_depth_line",
+        "file": "ui/gold/Grey/Default/button_square_depth_line.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_depth_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_flat",
+        "file": "ui/gold/Grey/Default/button_square_flat.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_gloss",
+        "file": "ui/gold/Grey/Default/button_square_gloss.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_gradient",
+        "file": "ui/gold/Grey/Default/button_square_gradient.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.button_square_line",
+        "file": "ui/gold/Grey/Default/button_square_line.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/button_square_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_round_color",
+        "file": "ui/gold/Grey/Default/check_round_color.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_round_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_round_grey",
+        "file": "ui/gold/Grey/Default/check_round_grey.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_round_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_round_grey_circle",
+        "file": "ui/gold/Grey/Default/check_round_grey_circle.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_round_grey_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_round_round_circle",
+        "file": "ui/gold/Grey/Default/check_round_round_circle.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_round_round_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_color",
+        "file": "ui/gold/Grey/Default/check_square_color.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_color_checkmark",
+        "file": "ui/gold/Grey/Default/check_square_color_checkmark.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_color_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_color_cross",
+        "file": "ui/gold/Grey/Default/check_square_color_cross.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_color_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_color_square",
+        "file": "ui/gold/Grey/Default/check_square_color_square.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_color_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_grey",
+        "file": "ui/gold/Grey/Default/check_square_grey.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_grey_checkmark",
+        "file": "ui/gold/Grey/Default/check_square_grey_checkmark.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_grey_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_grey_cross",
+        "file": "ui/gold/Grey/Default/check_square_grey_cross.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_grey_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.check_square_grey_square",
+        "file": "ui/gold/Grey/Default/check_square_grey_square.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/check_square_grey_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_checkmark",
+        "file": "ui/gold/Grey/Default/icon_checkmark.png",
+        "px": [
+          20,
+          18
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_circle",
+        "file": "ui/gold/Grey/Default/icon_circle.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_cross",
+        "file": "ui/gold/Grey/Default/icon_cross.png",
+        "px": [
+          18,
+          18
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_outline_checkmark",
+        "file": "ui/gold/Grey/Default/icon_outline_checkmark.png",
+        "px": [
+          20,
+          18
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_outline_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_outline_circle",
+        "file": "ui/gold/Grey/Default/icon_outline_circle.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_outline_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_outline_cross",
+        "file": "ui/gold/Grey/Default/icon_outline_cross.png",
+        "px": [
+          18,
+          18
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_outline_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_outline_square",
+        "file": "ui/gold/Grey/Default/icon_outline_square.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_outline_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.icon_square",
+        "file": "ui/gold/Grey/Default/icon_square.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/icon_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_hangle",
+        "file": "ui/gold/Grey/Default/slide_hangle.png",
+        "px": [
+          24,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_hangle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_horizontal_color",
+        "file": "ui/gold/Grey/Default/slide_horizontal_color.png",
+        "px": [
+          96,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_horizontal_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_horizontal_color_section",
+        "file": "ui/gold/Grey/Default/slide_horizontal_color_section.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_horizontal_color_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_horizontal_color_section_wide",
+        "file": "ui/gold/Grey/Default/slide_horizontal_color_section_wide.png",
+        "px": [
+          32,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_horizontal_color_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_horizontal_grey",
+        "file": "ui/gold/Grey/Default/slide_horizontal_grey.png",
+        "px": [
+          96,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_horizontal_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_horizontal_grey_section",
+        "file": "ui/gold/Grey/Default/slide_horizontal_grey_section.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_horizontal_grey_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_horizontal_grey_section_wide",
+        "file": "ui/gold/Grey/Default/slide_horizontal_grey_section_wide.png",
+        "px": [
+          32,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_horizontal_grey_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_vertical_color",
+        "file": "ui/gold/Grey/Default/slide_vertical_color.png",
+        "px": [
+          16,
+          96
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_vertical_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_vertical_color_section",
+        "file": "ui/gold/Grey/Default/slide_vertical_color_section.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_vertical_color_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_vertical_color_section_wide",
+        "file": "ui/gold/Grey/Default/slide_vertical_color_section_wide.png",
+        "px": [
+          16,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_vertical_color_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_vertical_grey",
+        "file": "ui/gold/Grey/Default/slide_vertical_grey.png",
+        "px": [
+          16,
+          96
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_vertical_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_vertical_grey_section",
+        "file": "ui/gold/Grey/Default/slide_vertical_grey_section.png",
+        "px": [
+          16,
+          16
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_vertical_grey_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.slide_vertical_grey_section_wide",
+        "file": "ui/gold/Grey/Default/slide_vertical_grey_section_wide.png",
+        "px": [
+          16,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/slide_vertical_grey_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.star",
+        "file": "ui/gold/Grey/Default/star.png",
+        "px": [
+          64,
+          60
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/star.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.star_outline",
+        "file": "ui/gold/Grey/Default/star_outline.png",
+        "px": [
+          64,
+          60
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/star_outline.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Default.star_outline_depth",
+        "file": "ui/gold/Grey/Default/star_outline_depth.png",
+        "px": [
+          64,
+          60
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Default/star_outline_depth.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_e",
+        "file": "ui/gold/Grey/Double/arrow_basic_e.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_e.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_e_small",
+        "file": "ui/gold/Grey/Double/arrow_basic_e_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_e_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_n",
+        "file": "ui/gold/Grey/Double/arrow_basic_n.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_n.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_n_small",
+        "file": "ui/gold/Grey/Double/arrow_basic_n_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_n_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_s",
+        "file": "ui/gold/Grey/Double/arrow_basic_s.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_s.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_s_small",
+        "file": "ui/gold/Grey/Double/arrow_basic_s_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_s_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_w",
+        "file": "ui/gold/Grey/Double/arrow_basic_w.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_w.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_basic_w_small",
+        "file": "ui/gold/Grey/Double/arrow_basic_w_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_basic_w_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_e",
+        "file": "ui/gold/Grey/Double/arrow_decorative_e.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_e.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_e_small",
+        "file": "ui/gold/Grey/Double/arrow_decorative_e_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_e_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_n",
+        "file": "ui/gold/Grey/Double/arrow_decorative_n.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_n.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_n_small",
+        "file": "ui/gold/Grey/Double/arrow_decorative_n_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_n_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_s",
+        "file": "ui/gold/Grey/Double/arrow_decorative_s.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_s.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_s_small",
+        "file": "ui/gold/Grey/Double/arrow_decorative_s_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_s_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_w",
+        "file": "ui/gold/Grey/Double/arrow_decorative_w.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_w.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.arrow_decorative_w_small",
+        "file": "ui/gold/Grey/Double/arrow_decorative_w_small.png",
+        "px": [
+          48,
+          48
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/arrow_decorative_w_small.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_border",
+        "file": "ui/gold/Grey/Double/button_rectangle_border.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_depth_border",
+        "file": "ui/gold/Grey/Double/button_rectangle_depth_border.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_depth_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_depth_flat",
+        "file": "ui/gold/Grey/Double/button_rectangle_depth_flat.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_depth_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_depth_gloss",
+        "file": "ui/gold/Grey/Double/button_rectangle_depth_gloss.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_depth_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_depth_gradient",
+        "file": "ui/gold/Grey/Double/button_rectangle_depth_gradient.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_depth_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_depth_line",
+        "file": "ui/gold/Grey/Double/button_rectangle_depth_line.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_depth_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_flat",
+        "file": "ui/gold/Grey/Double/button_rectangle_flat.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_gloss",
+        "file": "ui/gold/Grey/Double/button_rectangle_gloss.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_gradient",
+        "file": "ui/gold/Grey/Double/button_rectangle_gradient.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_rectangle_line",
+        "file": "ui/gold/Grey/Double/button_rectangle_line.png",
+        "px": [
+          384,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_rectangle_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_border",
+        "file": "ui/gold/Grey/Double/button_round_border.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_depth_border",
+        "file": "ui/gold/Grey/Double/button_round_depth_border.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_depth_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_depth_flat",
+        "file": "ui/gold/Grey/Double/button_round_depth_flat.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_depth_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_depth_gloss",
+        "file": "ui/gold/Grey/Double/button_round_depth_gloss.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_depth_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_depth_gradient",
+        "file": "ui/gold/Grey/Double/button_round_depth_gradient.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_depth_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_depth_line",
+        "file": "ui/gold/Grey/Double/button_round_depth_line.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_depth_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_flat",
+        "file": "ui/gold/Grey/Double/button_round_flat.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_gloss",
+        "file": "ui/gold/Grey/Double/button_round_gloss.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_gradient",
+        "file": "ui/gold/Grey/Double/button_round_gradient.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_round_line",
+        "file": "ui/gold/Grey/Double/button_round_line.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_round_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_border",
+        "file": "ui/gold/Grey/Double/button_square_border.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_depth_border",
+        "file": "ui/gold/Grey/Double/button_square_depth_border.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_depth_border.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_depth_flat",
+        "file": "ui/gold/Grey/Double/button_square_depth_flat.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_depth_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_depth_gloss",
+        "file": "ui/gold/Grey/Double/button_square_depth_gloss.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_depth_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_depth_gradient",
+        "file": "ui/gold/Grey/Double/button_square_depth_gradient.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_depth_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_depth_line",
+        "file": "ui/gold/Grey/Double/button_square_depth_line.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_depth_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_flat",
+        "file": "ui/gold/Grey/Double/button_square_flat.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_flat.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_gloss",
+        "file": "ui/gold/Grey/Double/button_square_gloss.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_gloss.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_gradient",
+        "file": "ui/gold/Grey/Double/button_square_gradient.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_gradient.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.button_square_line",
+        "file": "ui/gold/Grey/Double/button_square_line.png",
+        "px": [
+          128,
+          128
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/button_square_line.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_round_color",
+        "file": "ui/gold/Grey/Double/check_round_color.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_round_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_round_grey",
+        "file": "ui/gold/Grey/Double/check_round_grey.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_round_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_round_grey_circle",
+        "file": "ui/gold/Grey/Double/check_round_grey_circle.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_round_grey_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_round_round_circle",
+        "file": "ui/gold/Grey/Double/check_round_round_circle.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_round_round_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_color",
+        "file": "ui/gold/Grey/Double/check_square_color.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_color_checkmark",
+        "file": "ui/gold/Grey/Double/check_square_color_checkmark.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_color_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_color_cross",
+        "file": "ui/gold/Grey/Double/check_square_color_cross.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_color_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_color_square",
+        "file": "ui/gold/Grey/Double/check_square_color_square.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_color_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_grey",
+        "file": "ui/gold/Grey/Double/check_square_grey.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_grey_checkmark",
+        "file": "ui/gold/Grey/Double/check_square_grey_checkmark.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_grey_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_grey_cross",
+        "file": "ui/gold/Grey/Double/check_square_grey_cross.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_grey_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.check_square_grey_square",
+        "file": "ui/gold/Grey/Double/check_square_grey_square.png",
+        "px": [
+          64,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/check_square_grey_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_checkmark",
+        "file": "ui/gold/Grey/Double/icon_checkmark.png",
+        "px": [
+          40,
+          36
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_circle",
+        "file": "ui/gold/Grey/Double/icon_circle.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_cross",
+        "file": "ui/gold/Grey/Double/icon_cross.png",
+        "px": [
+          36,
+          36
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_outline_checkmark",
+        "file": "ui/gold/Grey/Double/icon_outline_checkmark.png",
+        "px": [
+          40,
+          36
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_outline_checkmark.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_outline_circle",
+        "file": "ui/gold/Grey/Double/icon_outline_circle.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_outline_circle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_outline_cross",
+        "file": "ui/gold/Grey/Double/icon_outline_cross.png",
+        "px": [
+          36,
+          36
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_outline_cross.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_outline_square",
+        "file": "ui/gold/Grey/Double/icon_outline_square.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_outline_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.icon_square",
+        "file": "ui/gold/Grey/Double/icon_square.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/icon_square.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_hangle",
+        "file": "ui/gold/Grey/Double/slide_hangle.png",
+        "px": [
+          48,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_hangle.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_horizontal_color",
+        "file": "ui/gold/Grey/Double/slide_horizontal_color.png",
+        "px": [
+          192,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_horizontal_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_horizontal_color_section",
+        "file": "ui/gold/Grey/Double/slide_horizontal_color_section.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_horizontal_color_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_horizontal_color_section_wide",
+        "file": "ui/gold/Grey/Double/slide_horizontal_color_section_wide.png",
+        "px": [
+          64,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_horizontal_color_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_horizontal_grey",
+        "file": "ui/gold/Grey/Double/slide_horizontal_grey.png",
+        "px": [
+          192,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_horizontal_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_horizontal_grey_section",
+        "file": "ui/gold/Grey/Double/slide_horizontal_grey_section.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_horizontal_grey_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_horizontal_grey_section_wide",
+        "file": "ui/gold/Grey/Double/slide_horizontal_grey_section_wide.png",
+        "px": [
+          64,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_horizontal_grey_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_vertical_color",
+        "file": "ui/gold/Grey/Double/slide_vertical_color.png",
+        "px": [
+          32,
+          192
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_vertical_color.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_vertical_color_section",
+        "file": "ui/gold/Grey/Double/slide_vertical_color_section.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_vertical_color_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_vertical_color_section_wide",
+        "file": "ui/gold/Grey/Double/slide_vertical_color_section_wide.png",
+        "px": [
+          32,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_vertical_color_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_vertical_grey",
+        "file": "ui/gold/Grey/Double/slide_vertical_grey.png",
+        "px": [
+          32,
+          192
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_vertical_grey.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_vertical_grey_section",
+        "file": "ui/gold/Grey/Double/slide_vertical_grey_section.png",
+        "px": [
+          32,
+          32
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_vertical_grey_section.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.slide_vertical_grey_section_wide",
+        "file": "ui/gold/Grey/Double/slide_vertical_grey_section_wide.png",
+        "px": [
+          32,
+          64
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/slide_vertical_grey_section_wide.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.star",
+        "file": "ui/gold/Grey/Double/star.png",
+        "px": [
+          128,
+          120
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/star.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.star_outline",
+        "file": "ui/gold/Grey/Double/star_outline.png",
+        "px": [
+          128,
+          120
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/star_outline.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.Double.star_outline_depth",
+        "file": "ui/gold/Grey/Double/star_outline_depth.png",
+        "px": [
+          128,
+          120
+        ],
+        "source": "kenney_ui-pack Grey/Grey/Double/star_outline_depth.png duotone(暗底->描边金)",
+        "license": "CC0 + 自产重调色",
+        "usage": "D4-D5 React HUD / 9-slice 面板"
+      },
+      {
+        "id": "ui.font.Kenney Future Narrow",
+        "file": "ui/fonts/Kenney Future Narrow.ttf",
+        "px": null,
+        "source": "kenney_ui-pack Font",
+        "license": "CC0",
+        "usage": "HUD 占位字体(正式版换末世气质字体)"
+      },
+      {
+        "id": "ui.font.Kenney Future",
+        "file": "ui/fonts/Kenney Future.ttf",
+        "px": null,
+        "source": "kenney_ui-pack Font",
+        "license": "CC0",
+        "usage": "HUD 占位字体(正式版换末世气质字体)"
+      }
+    ],
+    "tokens": [
+      {
+        "id": "tokens.misthold",
+        "file": "tokens/misthold.tokens.json",
+        "px": null,
+        "source": "美术文档 §1.2 色板",
+        "license": "自产",
+        "usage": "全项目色彩基准(W3C design tokens)"
+      }
+    ]
+  }
+}

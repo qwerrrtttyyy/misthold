@@ -1,0 +1,25 @@
+{
+  "name": "misthold",
+  "private": true,
+  "version": "0.1.0",
+  "description": "黑雾城邦 Misthold - RTS+塔防+经营+迷雾探索 (Web 技术栈 P0 垂直切片)",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @misthold/game dev",
+    "build": "pnpm --filter @misthold/game build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "art:process": "python3 tools/process_art.py",
+    "art:preview": "python3 -c \"print('see docs/asset-preview.png')\""
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "prettier": "3.6.2",
+    "eslint": "9.39.0",
+    "typescript-eslint": "8.46.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.28.2"
+}

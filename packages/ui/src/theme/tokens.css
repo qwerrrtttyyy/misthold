@@ -1,0 +1,31 @@
+:root {
+  --mh-human-amber: #E8A33D;
+  --mh-human-lamp: #F26B3A;
+  --mh-human-cloth: #8C6A4F;
+  --mh-human-lime: #9B948B;
+  --mh-human-glow: #FFD98C;
+  --mh-faction-xenogen-acid: #8BC34A;
+  --mh-faction-xenogen-indigo: #6A3D9A;
+  --mh-faction-xenogen-goo: #B7F04A;
+  --mh-faction-twisted-rot: #7A5B43;
+  --mh-faction-twisted-rash: #D98324;
+  --mh-faction-twisted-blood: #A83731;
+  --mh-faction-demonic-red: #C0392B;
+  --mh-faction-demonic-black: #1C1616;
+  --mh-faction-demonic-bone: #E8DFC8;
+  --mh-faction-automata-steel: #5B7A99;
+  --mh-faction-automata-warn: #F2C230;
+  --mh-faction-automata-cyan: #4FD1C5;
+  --mh-fog-black-core: #0D0A14;
+  --mh-fog-black-edge: #3B2A52;
+  --mh-fog-black-bolt: #8E5BC0;
+  --mh-fog-gray-grey: #8A9391;
+  --mh-fog-gray-deep: #5E6B6A;
+  --mh-fog-gray-shade: #2E3634;
+  --mh-ui-bg: #1A161E;
+  --mh-ui-gold: #C9A86A;
+  --mh-ui-ok: #6FB36A;
+  --mh-ui-danger: #D8443C;
+  --mh-ui-taboo: #B03A6E;
+  --mh-font: 'Kenney Future', system-ui, sans-serif;
+}

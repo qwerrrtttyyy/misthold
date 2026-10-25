@@ -1,0 +1,20 @@
+{
+  "name": "@misthold/sim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "黑雾城邦 模拟层: 纯逻辑零依赖 (Node 可无头运行), WorldStore 唯一权威状态",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}

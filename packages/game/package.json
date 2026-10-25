@@ -1,0 +1,31 @@
+{
+  "name": "@misthold/game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "黑雾城邦 组装层: 注册模块 + 载入 data 配置 + 入口 main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@misthold/kernel": "workspace:*",
+    "@misthold/render": "workspace:*",
+    "@misthold/sim": "workspace:*",
+    "@misthold/ui": "workspace:*",
+    "pixi.js": "8.22.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "@types/node": "24.10.1",
+    "vitest": "5.0.5"
+  }
+}

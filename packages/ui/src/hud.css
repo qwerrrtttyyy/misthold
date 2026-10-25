@@ -1,0 +1,368 @@
+/* 黑雾城邦 HUD - 设计基准: assets/tokens/tokens.css (美术文档 §1.2 色板)
+   布局: 美术文档 §4.1 HUD 分区; 移动端硬约束: 触控目标 >=44px, 底部避让拇指热区 */
+
+@font-face {
+  font-family: 'Kenney Future';
+  src: url('/ui/fonts/Kenney Future.ttf') format('truetype');
+  font-display: swap;
+}
+
+.hud-root {
+  position: fixed;
+  inset: 0;
+  pointer-events: none; /* 世界层可操作; 面板单独开启 (美术文档 §4.1 隔离) */
+  font-family: var(--mh-font);
+  color: var(--mh-human-glow);
+  user-select: none;
+  z-index: 10;
+}
+
+.hud-panel {
+  pointer-events: auto;
+  background: color-mix(in srgb, var(--mh-ui-bg) 85%, transparent);
+  border: 1px solid var(--mh-ui-gold);
+  border-radius: 6px;
+  box-shadow: 0 2px 12px #000a;
+}
+
+/* ---- 顶部: 资源栏 + 周期条 (美术文档 §4.1) ---- */
+.hud-top {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.resource-bar {
+  display: flex;
+  gap: 10px;
+  padding: 8px 12px;
+  align-items: center;
+  min-height: 44px;
+}
+
+.res-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 64px;
+}
+
+.res-name {
+  font-size: 10px;
+  color: var(--mh-human-lime);
+  letter-spacing: 1px;
+}
+
+.res-value {
+  font-size: 16px;
+  color: var(--mh-human-glow);
+}
+
+.res-rate {
+  font-size: 10px;
+  color: var(--mh-ui-ok);
+}
+
+.res-rate.down {
+  color: var(--mh-ui-danger);
+}
+
+.power-cell {
+  border-left: 1px solid var(--mh-ui-gold);
+  padding-left: 10px;
+  min-width: 90px;
+}
+
+.power-bar {
+  width: 80px;
+  height: 8px;
+  background: #0008;
+  border: 1px solid var(--mh-human-lime);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.power-fill {
+  height: 100%;
+  background: var(--mh-human-lamp);
+  transition: width 0.3s;
+}
+
+/* ---- 周期条 ---- */
+.cycle-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 8px 14px;
+  min-height: 44px;
+}
+
+.phase-badge {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: 1px solid var(--mh-ui-gold);
+  background: #1a161ecc;
+}
+
+.phase-badge.prep { color: var(--mh-human-glow); }
+.phase-badge.warn { color: var(--mh-bfog-bolt); animation: pulse 1s infinite; }
+.phase-badge.invade { color: var(--mh-ui-danger); border-color: var(--mh-ui-danger); animation: pulse 0.6s infinite; }
+.phase-badge.settle { color: var(--mh-human-lime); }
+
+@keyframes pulse {
+  50% { opacity: 0.55; }
+}
+
+.countdown {
+  font-size: 22px;
+  font-variant-numeric: tabular-nums;
+  min-width: 76px;
+  text-align: center;
+}
+
+.day-label {
+  font-size: 12px;
+  color: var(--mh-human-lime);
+}
+
+.core-hp {
+  width: 120px;
+}
+
+.core-hp-bar {
+  height: 10px;
+  background: #0008;
+  border: 1px solid var(--mh-ui-danger);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.core-hp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--mh-ui-danger), var(--mh-human-lamp));
+}
+
+.clock-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.clock-btn {
+  pointer-events: auto;
+  min-width: 44px;
+  min-height: 44px;
+  background: var(--mh-ui-bg);
+  color: var(--mh-ui-gold);
+  border: 1px solid var(--mh-ui-gold);
+  border-radius: 4px;
+  font-family: var(--mh-font);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clock-btn:hover {
+  background: var(--mh-ui-gold);
+  color: var(--mh-ui-bg);
+}
+
+.clock-btn.active {
+  background: var(--mh-human-amber);
+  color: #1a161e;
+}
+
+/* ---- 左侧建造菜单 ---- */
+.build-menu {
+  position: absolute;
+  left: 8px;
+  top: 68px;
+  bottom: 76px;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 6px;
+}
+
+.build-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.build-tab {
+  pointer-events: auto;
+  min-height: 32px;
+  padding: 4px 8px;
+  font-size: 12px;
+  background: transparent;
+  color: var(--mh-human-lime);
+  border: 1px solid var(--mh-human-lime);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--mh-font);
+}
+
+.build-tab.active {
+  background: var(--mh-human-amber);
+  color: #1a161e;
+  border-color: var(--mh-human-amber);
+}
+
+.build-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow-y: auto;
+}
+
+.build-card {
+  pointer-events: auto;
+  text-align: left;
+  background: #14101a;
+  border: 1px solid var(--mh-human-lime);
+  border-radius: 4px;
+  padding: 6px 8px;
+  color: var(--mh-human-glow);
+  font-family: var(--mh-font);
+  cursor: pointer;
+}
+
+.build-card:hover:not(:disabled) {
+  border-color: var(--mh-human-amber);
+}
+
+/* 放置模式激活: 金色描边 + 微辉光 (提示"已选中, 去地图点一下") */
+.build-card.active {
+  border-color: var(--mh-human-amber);
+  box-shadow: 0 0 8px var(--mh-human-amber), inset 0 0 6px rgb(255 191 96 / 25%);
+}
+
+.build-card:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.build-card .name {
+  font-size: 13px;
+}
+
+.build-card .cost {
+  font-size: 11px;
+  color: var(--mh-human-lamp);
+}
+
+.build-card .cost.short {
+  color: var(--mh-ui-danger);
+}
+
+.build-card .desc {
+  font-size: 10px;
+  color: var(--mh-human-lime);
+}
+
+/* ---- 右侧小地图 ---- */
+.minimap {
+  position: absolute;
+  right: 8px;
+  top: 68px;
+  width: 168px;
+  padding: 6px;
+}
+
+.minimap-grid {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 1px;
+  aspect-ratio: 1;
+}
+
+.minimap-cell {
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 1px;
+}
+
+.minimap-title {
+  font-size: 10px;
+  color: var(--mh-human-lime);
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 2px;
+}
+
+/* ---- 底部告警 + 单位条 ---- */
+.alert-stack {
+  position: absolute;
+  bottom: 84px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.alert {
+  pointer-events: auto;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  background: #1a161eee;
+  border: 1px solid var(--mh-ui-gold);
+  cursor: pointer;
+}
+
+.alert.P0 { border-color: var(--mh-ui-danger); color: var(--mh-ui-danger); animation: pulse 0.8s infinite; }
+.alert.P1 { border-color: var(--mh-twist-rash); color: var(--mh-twist-rash); }
+.alert.P2 { border-color: var(--mh-ui-gold); color: var(--mh-ui-gold); }
+.alert.P3 { border-color: var(--mh-human-lime); color: var(--mh-human-lime); }
+
+.unit-bar {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  align-items: center;
+  min-height: 60px;
+}
+
+.unit-slot {
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--mh-human-lime);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--mh-human-lime);
+}
+
+.enemy-count {
+  font-size: 12px;
+  color: var(--mh-ui-danger);
+  padding-left: 8px;
+  border-left: 1px solid var(--mh-human-lime);
+}
+
+/* 入侵期全屏边缘雾晕 (美术文档 §4.3 阶段化 UI) */
+.hud-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transition: box-shadow 0.8s;
+}
+
+.hud-vignette.warn { box-shadow: inset 0 0 120px 40px #3b2a5288; }
+.hud-vignette.invade { box-shadow: inset 0 0 160px 60px #0d0a14cc, inset 0 0 300px 100px #8e5bc044; }
