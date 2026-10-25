@@ -2,7 +2,9 @@
 
 ## 【主线状态】
 
-**当前节点**: P0 垂直切片功能闭环已完成并通过沙箱双验证 (全周期 + 交互), 处于「用户真机验收前」状态。
+**当前节点**: P0 垂直切片功能闭环已完成并通过沙箱双验证 (全周期 + 交互), 处于「用户真机验收前」状态。代码已落盘并提交远程私有仓库。
+
+**代码仓库**: 私有 `https://github.com/qwerrrtttyyy/misthold` (分支 `main`, HEAD `a0050f1`; OAuth 设备流推送, remote URL 无 token 残留)。
 
 **技术栈**: TS 7.0.2 / Vite 8.3.5 / Vitest 5.0.5 / PixiJS 8.22 / React 19.3 / zustand 5 / pnpm workspace (5 包: kernel/sim/render/ui/game)。**无降级**。
 
@@ -33,3 +35,9 @@
 **卡点**: 沙箱无 GPU (SwiftShader 软渲染 60fps 为参考值); 真机触控与帧率待用户验收。
 
 **未决**: 无阻塞项。范围冻结纪律有效——所有新想法进 backlog, 未动切片代码。
+
+**落牌 & 远程 (收尾)**:
+- `git init -b main` + 首次提交 `a0050f1` (2827 文件 / 256k 行; node_modules/dist ignore, assets-raw 34MB 随库保管线可复现)。
+- 远程: 沙箱 `gh` 客户端 TLS 握手超时, 改用 curl 走 GitHub OAuth device flow (client_id 公开值) 拿 token → 建私有仓 `misthold` → 推送。
+- **教训**: `git push | tee` 判退码恒为真 (tee 退 0), 误报成功; 最终以 GitHub API `refs/heads/main` 的 commit SHA 与本地 HEAD 一致作铁证核验。远程 token 已清除。
+- 备注: 设备流 token (scope=repo) 仍在 `/tmp/gh-token.txt`, 建议用户在 GitHub → Settings → Applications → Authorized OAuth Apps 撤销 "Misthold" 授权以保障安全。
