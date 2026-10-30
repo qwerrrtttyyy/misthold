@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "黑雾城邦 渲染层: PixiJS 8 适配 (只读 sim 状态, 反向只发指令)",
+  "description": "\u9ed1\u96fe\u57ce\u90a6 \u6e32\u67d3\u5c42: PixiJS 8 \u9002\u914d (\u53ea\u8bfb sim \u72b6\u6001, \u53cd\u5411\u53ea\u53d1\u6307\u4ee4)",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "exports": {
@@ -15,9 +15,9 @@
   "dependencies": {
     "@misthold/kernel": "workspace:*",
     "@misthold/sim": "workspace:*",
-    "pixi.js": "8.22.0"
+    "pixi.js": "^8.22.0"
   },
   "devDependencies": {
-    "typescript": "7.0.2"
+    "typescript": "^5.7.0"
   }
 }
