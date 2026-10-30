@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "黑雾城邦 模拟层: 纯逻辑零依赖 (Node 可无头运行), WorldStore 唯一权威状态",
+  "description": "\u9ed1\u96fe\u57ce\u90a6 \u6a21\u62df\u5c42: \u7eaf\u903b\u8f91\u96f6\u4f9d\u8d56 (Node \u53ef\u65e0\u5934\u8fd0\u884c), WorldStore \u552f\u4e00\u6743\u5a01\u72b6\u6001",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "exports": {
@@ -14,7 +14,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "7.0.2",
-    "vitest": "5.0.5"
-  }
+    "typescript": "^5.7.0",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {}
 }
