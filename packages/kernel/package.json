@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "黑雾城邦 微内核: 生命周期/拓扑加载/EventBus/ServiceLocator/Scheduler/ConfigStore (零游戏依赖)",
+  "description": "\u9ed1\u96fe\u57ce\u90a6 \u5fae\u5185\u6838: \u751f\u547d\u5468\u671f/\u62d3\u6251\u52a0\u8f7d/EventBus/ServiceLocator/Scheduler/ConfigStore (\u96f6\u6e38\u620f\u4f9d\u8d56)",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "exports": {
@@ -14,7 +14,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "7.0.2",
-    "vitest": "5.0.5"
-  }
+    "typescript": "^5.7.0",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {}
 }
